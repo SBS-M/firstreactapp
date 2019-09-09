@@ -20,13 +20,15 @@ import './App.css';
   } 
 } */
 
-class Helloworld extends React.Component {
+/* class Helloworld extends React.Component {
 
   state = { 
-    show: false
+    show: true
   }
 
   render(){
+    console.log("state ", this.state);
+    
     if(this.state.show){
       return (
         <div id="hello">
@@ -48,6 +50,10 @@ function App() {
       <Helloworld pruebaText="Prueba 2" /> 
       <Helloworld pruebaText="Prueba 3"/></div>
   );
-}
+} */
+
+
+
+
 
 export default App;
